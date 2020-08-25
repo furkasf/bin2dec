@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    display: flex;
+}
+#main{
+    margin: 0 auto;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+#bin{
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#dec{
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#btn, #clear{
+    border-radius: 8px;
+}
+#btn, #clear:hover{
+    background: chartreuse;
+}
